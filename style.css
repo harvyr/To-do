@@ -1,10 +1,27 @@
-
     @import url("https://fonts.googleapis.com/css?family=Lobster");
-    .red-text {
-    color: blue
-    font-family: Lobster;
-  }
-  p {
-    font-size: 16px;
-    font-family: monospace;
-  }
+    @import url('https://fonts.googleapis.com/css?family=Mansalva&display=swap');
+    body{
+      background-color: burlywood;
+      background-size: cover;
+      background-position: center center;
+      background-attachment: fixed;
+    }
+    .title-text {
+      color:darkcyan;
+      font-size: 80px;
+      font-family: Lobster;
+      text-align: center center;
+    }
+    .center-box{
+      display: block;
+      margin:8% auto;
+      width: 500px;
+      height:10px;
+      padding:5px;
+      text-align: center;
+    }
+    .center{
+      text-align: center;
+      margin-top: 15px;
+    }
+
